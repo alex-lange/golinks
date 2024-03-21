@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Local GoLinks",
+  "version": "0.1",
+  "description": "Redirects http://go/ links to a local server",
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["http://go/*", "https://go/*"]
+}

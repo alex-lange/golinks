@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+    "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "127.0.0.1",
+          "port": "5000"
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://go/*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
