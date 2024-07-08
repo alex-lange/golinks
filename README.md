@@ -4,7 +4,7 @@ Super basic golinks implementation based on:
 - https://github.com/nownabe/golink/
 
 ## Install Extension
-Install the extension in the `chrome` dir via the "Load unpacked" option at chrome://extensions/ (with "Developer mode" enabled).
+Install the extension in the `chrome` dir via the "Load unpacked" option at `chrome://extensions/` (with "Developer mode" enabled).
 
 ## Run Server Locally
 Run with `pipenv`:
