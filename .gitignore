@@ -1,2 +1,5 @@
 links.json
 chrome/_metadata/
+
+# macOS
+.DS_Store
